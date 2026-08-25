@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj": {}
+    "C:\\Users\\lille\\OneDrive\\Skrivebord\\Projekt\\ProjectGitFlow\\ProjectGitFlow.csproj": {}
   },
   "projects": {
-    "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj": {
+    "C:\\Users\\lille\\OneDrive\\Skrivebord\\Projekt\\ProjectGitFlow\\ProjectGitFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj",
+        "projectUniqueName": "C:\\Users\\lille\\OneDrive\\Skrivebord\\Projekt\\ProjectGitFlow\\ProjectGitFlow.csproj",
         "projectName": "ProjectGitFlow",
-        "projectPath": "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj",
-        "packagesPath": "/Users/nikolajlovbjerg/.nuget/packages/",
-        "outputPath": "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/obj/",
+        "projectPath": "C:\\Users\\lille\\OneDrive\\Skrivebord\\Projekt\\ProjectGitFlow\\ProjectGitFlow.csproj",
+        "packagesPath": "C:\\Users\\lille\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lille\\OneDrive\\Skrivebord\\Projekt\\ProjectGitFlow\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nikolajlovbjerg/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,15 +69,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.13, 9.0.13]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[9.0.12, 9.0.12]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.13, 9.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.13, 9.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.13, 9.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -82,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/nikolajlovbjerg/.dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\lille\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
