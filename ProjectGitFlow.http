@@ -1,0 +1,6 @@
+@ProjectGitFlow_HostAddress = http://localhost:5177
+
+GET {{ProjectGitFlow_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
