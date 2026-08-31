@@ -16,7 +16,7 @@ public class UsersController : ControllerBase
         _userService = userService;
     }
 
-    /*[HttpPost("register")]
+    [HttpPost("register")]
     public IActionResult Register([FromBody] RegisterRequestDto request)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -25,7 +25,7 @@ public class UsersController : ControllerBase
 
         if (!result.Success) return Conflict(new { message = result.Message });
         return Ok(new { message = result.Message });
-    }*/
+    }
 
     [HttpPost("login")]
     public IActionResult Login([FromBody] LoginRequestDto request)
