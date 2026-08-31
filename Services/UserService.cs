@@ -16,10 +16,20 @@ public class UserService : IUserService
         _passwordHasher = passwordHasher;
     }
 
-    /*public AuthResultDto Register(RegisterRequestDto request)
+    public AuthResultDto Register(RegisterRequestDto request)
     {
-        throw new NotImplementedException("TODO: implemented on feature/register-user");
-    }*/
+        if (_userRepository.EmailExists(request.Email))
+        {
+            return AuthResultDto.Fail("Email is already registered.");
+        }
+
+        var user = new User { Email = request.Email };
+        user.PasswordHash = _passwordHasher.HashPassword(user, request.Password);
+
+        _userRepository.Add(user);
+
+        return AuthResultDto.Ok("User registered successfully.");
+    }
 
     public AuthResultDto Login(LoginRequestDto request)
     {
