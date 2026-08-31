@@ -460,3 +460,5 @@ target/
 # .NET / C#
 bin/
 obj/
+obj/Debug/net9.0/ProjectGitFlow.AssemblyInfoInputs.cache
+obj/Debug/net9.0/ProjectGitFlow.AssemblyInfo.cs
