@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kaspersommer/Desktop/Softwarearkitektur/miniprojekt-ordination-master/ProjectGitFlow/ProjectGitFlow.csproj": {}
+    "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj": {}
   },
   "projects": {
-    "/Users/kaspersommer/Desktop/Softwarearkitektur/miniprojekt-ordination-master/ProjectGitFlow/ProjectGitFlow.csproj": {
+    "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kaspersommer/Desktop/Softwarearkitektur/miniprojekt-ordination-master/ProjectGitFlow/ProjectGitFlow.csproj",
+        "projectUniqueName": "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj",
         "projectName": "ProjectGitFlow",
-        "projectPath": "/Users/kaspersommer/Desktop/Softwarearkitektur/miniprojekt-ordination-master/ProjectGitFlow/ProjectGitFlow.csproj",
-        "packagesPath": "/Users/kaspersommer/.nuget/packages/",
-        "outputPath": "/Users/kaspersommer/Desktop/Softwarearkitektur/miniprojekt-ordination-master/ProjectGitFlow/obj/",
+        "projectPath": "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/ProjectGitFlow.csproj",
+        "packagesPath": "/Users/nikolajlovbjerg/.nuget/packages/",
+        "outputPath": "/Users/nikolajlovbjerg/Documents/4_Semester/Agil_udvikling/ProjectGitFlow/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kaspersommer/.nuget/NuGet/NuGet.Config"
+          "/Users/nikolajlovbjerg/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -60,6 +60,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/nikolajlovbjerg/.dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

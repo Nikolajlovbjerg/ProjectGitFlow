@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectGitFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266d616dfbcb3792024681775a02e72da97fd1ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+653e8f3fa039afd2f6a375f231e7c2358a59b149")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectGitFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectGitFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
